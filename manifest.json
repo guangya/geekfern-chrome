@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "Geekfern Bookmark",
+	"description": "极微客技术博客快速入口。",
+	"version": "1.0",
+	"icons": { 
+		"16": "icon16.png",             
+		"48": "icon48.png",            
+		"128": "icon128.png" 
+	},
+	"permissions": [
+		"http://www.geekfern.com/"
+	],
+	"browser_action": {
+		"default_icon": "icon48.png",
+		"default_title": "点击访问极微客官网",
+		"default_popup": ""
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
